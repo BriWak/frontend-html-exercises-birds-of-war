@@ -57,10 +57,12 @@ h1,h2,h3{
 }
 
 .columns {
+    display:inline-block;
+    padding: 2em;
+    width: 70em;
     column-count: 2;
     column-gap: 40px;
     column-rule: 1px solid;
-    column-width: 100px;
 }
 
 .our_sources {
