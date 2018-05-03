@@ -1,8 +1,60 @@
-.main_text {
-    clear: both;
+
+html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 19px;
 }
+
 body {
-    width: 1000px;
+    width: 50em;
+    margin: 0 auto;
     border: 4px solid black;
     padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    padding: 1.5em 0;
+}
+
+.main-image {
+    float: left;
+    width: 73%;
+    margin-right: 2%;
+}
+
+.recipe-info {
+    float: right;
+    width: 23%;
+    margin-left: 2%;
+}
+
+.recipe-info dd {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.intro_text {
+    width: 100%;
+    clear: left;
+}
+
+section {
+    border-top: 1px solid #dcdcdc;
+}
+
+.ingredients {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients li {
+    padding-left: 2em;
 }
